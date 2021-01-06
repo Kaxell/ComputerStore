@@ -8,7 +8,7 @@ Lists computers, and allows computer search by details.
 A terminal based project. 
 
 
-Can be complied and run with g++ compiler. 
-g++ ComputerStore.cpp -o ComputerStore
-./ComputerStore
+Can be complied and run with a g++ compiler. 
+>> g++ ComputerStore.cpp -o ComputerStore
+>> ./ComputerStore
 
