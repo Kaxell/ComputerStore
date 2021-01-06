@@ -9,6 +9,8 @@ A terminal based project.
 
 
 Can be complied and run with a g++ compiler. 
->> g++ ComputerStore.cpp -o ComputerStore
->> ./ComputerStore
+
+> g++ ComputerStore.cpp -o ComputerStore
+
+> ./ComputerStore
 
