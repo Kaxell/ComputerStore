@@ -145,6 +145,7 @@ string GetHDDescription(HDType type)
 	}
 	return "N/A";
 }
+
 string GetScreenSizeDescription(ScreenSize type)
 {
 	if ((int)type == 1)
@@ -350,7 +351,7 @@ class Desktop : Computer //Subclass
 {
 protected:
 	const int MAXCPU = 2;
-    const int MAXGPU = 2;
+        const int MAXGPU = 2;
 	int cpuCount;
 	int gpuCount;
 
@@ -458,8 +459,8 @@ public:
 class Server : Computer //Subclass
 {
 protected:
-    Manufacturer* manufacturer;
-    const int MAXGPU = 4;
+    	Manufacturer* manufacturer;
+    	const int MAXGPU = 4;
 	const int MAXCPU = 4;
 	int cpuCount;
 	int gpuCount;
